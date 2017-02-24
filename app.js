@@ -44,7 +44,7 @@ router.route('/users')
         var user = new User();
 
         // ユーザの各カラムの情報を取得する．
-        user.twitter_id = req.body.twitter_id;
+        user.abctalking_id = req.body.abctalking_id;
         user.name = req.body.name;
         user.age = req.body.age;
 
@@ -84,7 +84,7 @@ router.route('/users/:user_id')
             if (err)
                 res.send(err);
             // ユーザの各カラムの情報を更新する．
-            user.twitter_id = req.body.twitter_id;
+            user.abctalking_id = req.body.abctalking_id;
             user.name = req.body.name;
             user.age = req.body.age;
 
