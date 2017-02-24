@@ -10,7 +10,8 @@
   "keywords": [
     "docker",
     "express",
-    "mongo"
+    "mongo",
+    "passport"
   ],
   "author": "Yasuhito Toyama",
   "license": "ISC",
@@ -19,6 +20,7 @@
     "express": "^4.14.1",
     "mongoose": "^4.8.4",
     "nodemon": "^1.11.0",
-    "passport": "^0.3.2"
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
   }
 }
